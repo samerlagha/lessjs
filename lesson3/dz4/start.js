@@ -7,7 +7,6 @@ console.log("false || true || false: ", false || true || false);
 false || false || false;
 console.log("false || fasle || false: ", false || false || false);
 
-
 /* оператор && (AND) */
 false && true;
 console.log("false && true: ", false && true);

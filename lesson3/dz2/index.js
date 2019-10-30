@@ -14,6 +14,7 @@ console.log("' 20 ' to number is " + Number(' 20 '));
 console.log("'      ' to number is " + Number('      '));
 console.log("'   30d   ' to number is " + Number('   30d   '));
 
+
 console.log('null to boolean is ' + Boolean(null));
 console.log('undefined to boolean is ' + Boolean(undefined));
 console.log('0 to boolean is ' + Boolean(0));

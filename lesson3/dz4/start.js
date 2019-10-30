@@ -1,10 +1,10 @@
 
 /* оператор || (OR) */
-false || true;
+//false || true;
 console.log("false || true: ", false || true);
-false || true || false;
+//false || true || false;
 console.log("false || true || false: ", false || true || false);
-false || false || false;
+//false || false || false;
 console.log("false || fasle || false: ", false || false || false);
 
 /* оператор && (AND) */

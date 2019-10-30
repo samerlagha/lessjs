@@ -25,7 +25,7 @@ console.log("'text' || false: ", 'text' || false);
 true || 'text';
 console.log("true || 'text': ", true || 'text');
 undefined || null || 0 || '' || null;
-console.log(" undefined || null || 0 || '' || null: ",  undefined || null || 0 || '' || null);
+console.log("undefined || null || 0 || '' || null: ", undefined || null || 0 || '' || null);
 
 
 const customAmount = null; // не выводим

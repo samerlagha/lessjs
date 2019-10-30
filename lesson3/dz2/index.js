@@ -12,7 +12,7 @@ console.log("null to number is " + Number(null));
 console.log("undefined to number is " + Number(undefined));
 console.log("' 17 ' to number is " + Number(' 17 '));
 console.log("'' to number is " + Number(''));
-console.log("' 17d' to number is " + Number(' 17d'));
+console.log("' 17d ' to number is " + Number(' 17d '));
 
 console.log('null to boolean is ' + Boolean(null));
 console.log('undefined to boolean is ' + Boolean(undefined));

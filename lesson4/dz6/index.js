@@ -13,6 +13,7 @@ for(let i=0;i<=1000;i++){
          
         console.log(' Found ');
         count++;
+         count +=count;
          console.log(count);
         //sum+=i;
         if(count*5 >500) console.log('Bigger');

@@ -1,8 +1,8 @@
-const m =10;
-const n =20;
+const m =20;
+const n =50;
 let result =0;
     
-while(true){
+while(m<=n){
 if(m % 2===0 && m % 4 !==0) result += m;
      
 if(m % 4===0) result *=m;

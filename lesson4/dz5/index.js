@@ -1,14 +1,17 @@
-const m =20;
-const n =50;
-let result =0;
-    
-while(m<=n){
-if(m % 2===0 && m % 4 !==0) result += m;
-     
-if(m % 4===0) result *=m;
-if(m % 3===0) result -=m;
-if(m % 5===0 && n %5===0) console.log(m,n);
+const m = 20;
+const n = 50;
+let result = 0;
 
-    break;
+for (let i = m; i <= n; i++) {
+    if ((i % 2 === 0) && (i % 4 !== 0)) {
+        result += i;
+    } else if (!(i % 3)) {
+        result -= i;
+    } else if (!(i % 4)) {
+        result *= i;
     }
-console.log('Result: ' + result);
+    if (!(i % 5)) {
+        console.log(i);
+    }
+}
+//console.log(result);

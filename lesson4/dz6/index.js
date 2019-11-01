@@ -27,12 +27,11 @@ for(let i=0;i<=1000;i++){
          
         console.log('Found');
         count++;
-          console.log(count);
         }
-       
-        if(count*5 >5000) console.log('Bigger');
-        else console.log('Smaller or equal');
     }
+      console.log(count);
+    if(count*5 >5000) console.log('Bigger');
+    else console.log('Smaller or equal');
 
 
    

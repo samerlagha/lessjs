@@ -1,3 +1,3 @@
-function getSum(a,b){
+function sum(a,b){
     console.log(a+b);
 }

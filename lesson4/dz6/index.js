@@ -8,4 +8,4 @@ for(let i=0;i<=1000;i++){
     }
       console.log(count);
     if(count*5 >5000) console.log('Bigger');
-    if(count*5 <= 5000) console.log('Smaller or equal');
+    if(count*5 <= 5000) console.log('Smaller or Equal');

@@ -1,4 +1,4 @@
-function sayHi(text){
+function sayHi(name){
 
-    console.log('Hi, '+Tom);
+    console.log('Hi, '+name);
 }

@@ -3,7 +3,7 @@ const n = 20;
 let  result = 1;
 
 do{
-   if (!(i % 2)) continue;
+   
      if(m % 2 === 1){
         result *=m;
      }

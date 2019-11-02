@@ -1,5 +1,15 @@
 function  findDivCount(a, b, n){
-    for (let a = 0, i = a; i <= b; j++) if (i*i ===n) a++;
-       return a;
+
+    for ( i = 0, i = a; i <= b; i++) {
+    
+    if (i % n !==0){
+        return 0;
+    } 
+      
+        if (i % n ===0){
+        n =i;
+    }  
        }
+        return n;
+    }
     

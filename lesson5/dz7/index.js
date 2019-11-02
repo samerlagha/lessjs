@@ -1,8 +1,8 @@
 function  increaser(a, index){
-  let  roz = index -a;
-   if(a <=  index){
-     roz = a+roz;
-     return roz;
-   } else if(a > index)   return a;
-    
+  let k = index -a;
+  if(a<=index){
+     a +=k;
+   return a;
+  }
+  if(a>index) return a;
 }

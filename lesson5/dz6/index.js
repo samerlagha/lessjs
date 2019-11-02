@@ -4,7 +4,7 @@ function getPrimes(num1,num2){
     for (let j = 2; j < i; j++) { 
         if (i % j == 0) continue nextPrime; 
       }
-      console.log(i);
+      console.log('<=',i);
     }
   }
 getPrimes(2,10);

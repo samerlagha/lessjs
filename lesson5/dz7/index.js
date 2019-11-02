@@ -4,5 +4,5 @@ function  increaser(a, index){
     // a +=k;
    return a;
   }
-  if(a>index) return index;
+  if(a>index) return a;
 }

@@ -10,5 +10,5 @@ function  increaser(a, index){
            return a;
        }
  }
- 
- // increaser(7,5);
+ let result= increaser(5,12);
+ console.log(result);

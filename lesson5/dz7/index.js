@@ -2,9 +2,12 @@ function  increaser(a, index){
     let  roz = index -a;
      if(a <= index){
        a = a+roz;
+       console.log(a);
        return a;
-     } else return a;
+     } else if(a>index) {
+        console.log(a);
+           return a;
+       }
  }
  
-  let res =increaser(6,5);
-  console.log(res);
+  increaser(7,5);

@@ -1,20 +1,18 @@
 function  getPrimes(num1,num2){
-    for (let i = num1; i <= num2; i++)
+    for ( num1 =1; num1 <= num2; num1++)
     {
-        let not_prime = false;
+        let notPrime = false;
     
-        for (let j = 2; j <= (i - 1); j++) 
+        for (let j = 2; j <= (num1 - 1); j++) 
     
         {
-            if (i % j === 0) 
-            {not_prime = true;}
+            if (num1 % j === 0) notPrime = true;
         }
     
-        if (not_prime === false) 
-        {console.log(i);}
+        if (notPrime === false)  console.log(num1);
     }
     }
-    getPrimes(2,10);
+    getPrimes(2,17);
 
 
 

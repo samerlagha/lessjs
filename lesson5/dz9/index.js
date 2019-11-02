@@ -7,9 +7,9 @@ function  findDivCount(a, b, n){
     } 
       
         if (i % n ===0){
-        n =i;
+        i++;
     }  
        }
-        return n;
+        return i;
     }
     

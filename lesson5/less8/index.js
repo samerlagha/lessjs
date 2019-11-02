@@ -5,7 +5,7 @@ function  compareSums(a, b, c, d){
 
    
     if(compare>0) return true;
-    else if (compare<0) return false;
+   if (compare<0) return false;
  }
 
  function sum(from, to){

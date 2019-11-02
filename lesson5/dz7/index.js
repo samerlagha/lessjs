@@ -3,7 +3,7 @@ function  increaser(a, index){
      if(parseInt(a) <=  parseInt(index)){
        a = a+roz;
        console.log(a);
-      // return a;
+       return a;
      } else if(a > index) {
         console.log(a);
            return a;

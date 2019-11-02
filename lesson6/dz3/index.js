@@ -1,9 +1,9 @@
-function swap(m,n){
+function swap(from,to){
  let specialNumbers=[];
- for(let i = m; i <= n;i++){
+ for(let i = from; i <= to;i++){
 
     if(i % 3 ===0){
-        specialNumbers.pop(i);
+        specialNumbers.push(i);
     }
  }
     return specialNumbers;

@@ -1,8 +1,8 @@
 function  increaser(a, index){
-  let k = index -a;
+ // let k = index -a;
   if(a<=index){
-     a +=k;
+    // a +=k;
    return a;
   }
-  if(a>index) return a;
+  if(a>index) return index;
 }

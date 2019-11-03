@@ -1,31 +1,27 @@
-// function sortAsc(array){
-
-//  let arrayAss=[];
-//  for (i=arrayAss.length-1;i>=0;i--) {
-           
-// for (j=0;j<i;j++) {
-//     if (arrayAss[j]>arrayAss[j+1]) {
-//         let temp=arrayAss[j];
-//             arrayAss[j]=arrayAss[j+1];
-//              arrayAss[j+1]=temp;
-//                 }
-//             }
-//         }   
-
-//         return arrayAss;
- }
-
 function sortAsc(array){
 
-    let n = array.length;
-    for (let i = 0; i < n - 1; i++) {
-      for (let j = 0; j < n - 1 - i; j++) {
-        if (array[j + 1] < array[j]) {
-          let t = array[j + 1];
-          array[j + 1] = array[j];
-          array[j] = t;
+    for (let i = 0; i < array.length; i++) {
+      
+      for (let j = i; j < array.length; j++) {
+        if (array[i] < array[j]) {
+          let temp = array[i]; 
+          array[i] = array[j]; 
+          array[j] = temp; 
+        };
+      };
+    };
+    return array;
+  }
+ 
+  function sortDesc(array) {
+    for (let i = array.length-1; i >= 0; i--) {
+      for (let j = i; j >= 0; j--) {
+        if (array[i] < array[j]) {
+          let temp = array[i];
+          array[i] = array[j];
+          array[j] = temp;
         }
       }
     }
-       return array; 
+    return array;
   }

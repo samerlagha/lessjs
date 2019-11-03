@@ -1,6 +1,6 @@
 function squareArray(arr){
     
-    ret= [];
+    let ret= [];
  
      if(!Array.isArray(arr)) return null;
  
@@ -8,5 +8,5 @@ function squareArray(arr){
          ret.push(arr[i] * arr[i]);
      }
  
-     return ret;     
+      return ret;     
  }

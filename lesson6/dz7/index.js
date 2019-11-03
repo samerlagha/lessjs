@@ -1,4 +1,4 @@
- function sortAsc(array){
+// function sortAsc(array){
 
 //  let arrayAss=[];
 //  for (i=arrayAss.length-1;i>=0;i--) {
@@ -15,7 +15,7 @@
 //         return arrayAss;
  }
 
-function sortDesc(array){
+function sortAsc(array){
 
     let n = array.length;
     for (let i = 0; i < n - 1; i++) {

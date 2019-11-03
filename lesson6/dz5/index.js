@@ -4,7 +4,7 @@ function squareArray(arr){
  
      if(!Array.isArray(arr)) return null;
  
-     for (let i = 0 ; i = arr.length; i++) {
+     for (let i = 0 ; i <= arr.length -1 ; i++) {
          ret.push(arr[i] * arr[i]);
      }
  

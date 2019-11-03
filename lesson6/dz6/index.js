@@ -1,7 +1,9 @@
+
 function reverseArray(arr){
-    let arr2=[]
-  if(!(Array.isArray(arr))) return null;
+    let arr2= arr.concat([]);
+  if(!(Array.isArray(arr2))) return null;
   
-    arr2= arr.reverse();
+     //let arr2= arr2.reverse();
+      arr2.reverse();
     return arr2;
   }

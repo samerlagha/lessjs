@@ -1,15 +1,18 @@
 function withdraw(clients, balances, client, amount){
-    client=[];
-  // amount =[];
-  while(amount > balances) return -1;
-   for(let i =0 ; i <= clients.length-1;i++){
-    for(let j=0 ; j <= balances.length-1;j++){
-             if(amount > balances[j]) return -1;
-             else  balances[j] -=amount;
-             return balances;
+    // client=[];
+   // amount =[];
+   //while(amount[k] > balances[j]) return -1;
+    for(let i =0 ; i <= clients.length-1;i++){
+     for(let j=0 ; j <= balances.length-1;j++){
+        for(let k=0 ;k <=amount.length-1;k++){
+              if(amount[k] > balances[j]) return -1;
+              balances[j] -=amount[k];
+              return balances;
+              }
+              
+     }
+         // clients[i]= client;
+      return clients;
     }
-        // clients[i]= client;
-     //return clients;
-   }
-  
-   }
+   
+    }
